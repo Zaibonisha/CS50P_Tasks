@@ -4,3 +4,8 @@ def get_guess():
 
 def main():
     guess = get_guess()
+    if guess == 50:
+        print("Correct!")
+
+    else:
+        print("Incorrect!")    
